@@ -1,6 +1,6 @@
 # Painting and Museum Analysis
 ## Overview
-This is a project for learning and practicing advanced SQL concepts such as CTE, Sub-Query, and Window-Function through exploring a dataset of famous paintings in several tables to unravel the relationship and pattern of the data and answer our problem statements.
+This is a project for learning and practicing advanced SQL concepts such as CTE, Sub-Query, and Window-Function through exploring a dataset of famous paintings in several tables to unravel the relationship of the data and answer our problem statements.
 ## Tools
 - PostGreSQL 16
 - pgAdmin 4
