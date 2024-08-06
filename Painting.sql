@@ -45,7 +45,15 @@ JOIN museum AS m
 ON m.museum_id = mh1.museum_id
 WHERE mh1.day = 'Sunday' AND mh2.day ='Monday';
 
---6.Which museum is open for the longest during a day. Dispay museum name, state 
+--6.How many museums are open every single day?
+SELECT COUNT(*)
+FROM(
+	select museum_id,count(distinct day)
+	from museum_hours
+	group by museum_id
+	having count(distinct day) = 7)
+
+--7.Which museum is open for the longest during a day. Dispay museum name, state 
 --and hours open and which day?
 SELECT m.name AS museum_name,
 	m.state,
@@ -59,7 +67,7 @@ ON m.museum_id = mh.museum_id
 ORDER BY duration DESC
 LIMIT 1;
 
---7.Display the country and the city with most no of museums. Output 2 seperate 
+--8.Display the country and the city with most no of museums. Output 2 seperate 
 --columns to mention the city and country. If there are multiple value, seperate them 
 --with comma.
 WITH cte_country AS (
