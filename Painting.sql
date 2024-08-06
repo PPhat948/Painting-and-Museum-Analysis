@@ -43,7 +43,8 @@ JOIN museum_hours AS mh2
 ON mh1.museum_id = mh2.museum_id
 JOIN museum AS m 
 ON m.museum_id = mh1.museum_id
-WHERE mh1.day = 'Sunday' AND mh2.day ='Monday';
+WHERE mh1.day = 'Sunday' AND mh2.day ='Monday'
+GROUP BY  museum_name,m.city
 
 --6.How many museums are open every single day?
 SELECT COUNT(*)
@@ -88,7 +89,3 @@ SELECT  string_agg(DISTINCT cte_country.country,','),
 FROM cte_country
 CROSS JOIN cte_city
 WHERE cte_city.city_rank = 1;
-
-
-
-
