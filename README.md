@@ -1,6 +1,6 @@
 # Painting and Museum Analysis
 ## Overview
-This is a project for learning and practicing advanced SQL concepts such as CTE, Sub-Query, and Window-Function through exploring a dataset of famous paintings in several tables to unravel the relationship and pattern of the data and answer our problem statements.
+This is a project for learning and practicing advanced SQL concepts such as CTE, Sub-Query, and Window-Function through exploring a dataset of famous paintings in several tables to unravel the relationship of the data and answer our problem statements.
 ## Tools
 - PostGreSQL 16
 - pgAdmin 4
@@ -9,14 +9,14 @@ This is a project for learning and practicing advanced SQL concepts such as CTE,
 The dataset that I used in this project is from Kaggle: Famous Paintings
 https://www.kaggle.com/datasets/mexwell/famous-paintings
 ## Problem Statement
-1.Fetch all the paintings which are not displayed on any museums.
-2.How many paintings have an asking price is less than regular price? 
-3.Which canva size costs the most?
-4.Fetch the top 10 most famous painting subject
-5.Identify the museums which are open on both Sunday and Monday. Display museum name, city.
-6.How many museums are open every single day?
-7.Which museum is open for the longest during a day.Dispay museum name, state and hours open and which day?
-8.Display the country and the city with most no of museums. Output 2 seperate columns to mention the city and country. If there are multiple value, seperate them with comma.
+1. Fetch all the paintings which are not displayed on any museums.
+2. How many paintings have an asking price is less than regular price? 
+3. Which canva size costs the most?
+4. Fetch the top 10 most famous painting subject
+5. Identify the museums which are open on both Sunday and Monday. Display museum name, city.
+6. How many museums are open every single day?
+7. Which museum is open for the longest during a day.Dispay museum name, state and hours open and which day?
+8. Display the country and the city with most no of museums. Output 2 seperate columns to mention the city and country. If there are multiple value, seperate them with comma.
 ## Steps in project
 ### 1. Setting up database
 - Use pgAdmin 4 to connect to our Postgre database server.
