@@ -8,9 +8,6 @@ This is a project for learning and practicing advanced SQL concepts such as CTE,
 ## Dataset
 The dataset that I used in this project is from Kaggle: Famous Paintings
 https://www.kaggle.com/datasets/mexwell/famous-paintings
-## ER Diagram 
-Made by pgAdmin 4
-![ER Diagram](https://github.com/user-attachments/assets/4f100a45-c0a6-4574-a623-82f0131a66b3)
 ## Problem Statement
 1. Fetch all the paintings which are not displayed on any museums.
 2. How many paintings have an asking price is less than regular price? 
